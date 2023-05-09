@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fave-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fave-32.png">
+    <title>Petsy Labs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="module" crossorigin src="./css/tailwind.css"></script>
+</head>
+  <body class="text-black font-sans text-lg">
+    <section>
+      <div class="">
+        <div class="bg-[#1D1D1B] w-full h-[15px]"></div>
+        <div class="bg-[#F2CD00] pb-6">
+          <img src="img/logo.svg" class="mx-auto">
+          <h1 class="text-[26px] font-bold text-center mt-6">WELCOME!<br>on special web-page!</h1>
+        </div>
+      </div>
+      <p class="text-2xl text-center font-bold my-6">END OF THE MONTH SPECIAL</p>
+      <div id="cdown" class="mx-auto text-center text-5xl">
+        <div id="days" class="text-white rounded-lg bg-black p-3 inline"></div>:<div id="hours" class="text-white rounded-lg bg-black p-3 inline"></div>:<div id="minutes" class="text-white rounded-lg bg-black p-3 inline"></div>:<div id="seconds" class="text-white rounded-lg bg-black p-3 inline"></div>
+      </div>
+      <div class="flex flex-row items-center justify-between space-x-1 max-w-2xl mx-auto mt-14">
+        <img loading="lazy" src="img/arin-rapus.png" class="w-1/2 -ml-14 md:ml-0 self-end min-w-[220px]">
+        <div class="overflow-hidden">
+          <h2 class="font-ssans text-4xl font-bold mb-6 leading-8">Psst...<br>I have a <span class="text-[#ff0000] whitespace-nowrap">special deal</span> for you</h2>
+          <p class="text-[15px] md:text-2xl">I appreciate the time you give in researching our product, so <b>I have decided to offer you something special</b>… I haven't offered before.</p>
+        </div>
+      </div>
+      <div class="bg-cover bg-[center_right_-11rem] relative max-w-2xl mx-auto py-6 min-h-[577px]" style="background-image: url(img/canine-1.png);">
+        <div class="h-0 w-[205px] rotate-180 border-b-[47px] border-l-[25px] border-l-transparent border-b-[#F2CD00] flex items-center justify-center">
+          <p class="text-base font-bold rotate-180 mt-[45px] italic">LIMITED TIME OFFER</p>
+        </div>
+        <div class="w-32 h-32 bg-[#ff0000] rounded-full rotate-12 text-white text-5xl flex flex-col items-center justify-center font-bold mr-4 ml-auto p-2 -mt-1">20%<span class="text-[40px]">OFF</span></div>
+        <img loading="lazy" src="img/scissors.png" class="absolute w-10 -bottom-[13.5px] right-4">
+      </div>
+      <div class="max-w-2xl mx-auto">
+        <h2 class="text-base md:text-2xl text-center pt-12 px-7 mx-auto">At Petsy Labs, we believe in the quality of our products, which is why we offer a <b>Risk-Free 90-Day Return & Refund Policy plus FREE SHIPPING!</b></h2>
+        <h2 class="text-base md:text-2xl text-center pt-7 pb-12 px-7 mx-auto"><b>Now you have nothing to lose</b><br>(except for your dog's health problems and high vet bills)!</h2>
+      </div>
+      <div class="flex flex-col-reverse lg:flex-row items-center justify-between gap-5 max-w-5xl mx-auto">
+        <div class="flex flex-col items-center bg-[#ffffe0] border border-[#7a7a7a] rounded p-5 max-w-[480px] mx-auto shadow">
+          <h2 class="font-ssans text-[34px] font-black text-center py-4">BUY 1</h2>
+          <div class="flex flex-row items-center justify-between">
+            <img loading="lazy" src="img/pack-1.png" class="w-1/2">
+            <p class="w-1/2">
+              <span class="text-[22px] text-[#7a7a7a] font-bold line-through">49.90 €</span><br>
+              <span class="text-[38px] font-black">39.90 €</span> <span class="text-[19px] font-medium">/jar</span><br>
+              <span class="font-medium text-lg">+ FREE SHIPPING</span>
+            </p>
+          </div>
+          <p class="flex flex-row items-center text-base font-medium"><img loading="lazy" src="img/lock.svg">90 Day Money Back Guarantee</p>
+          <a href="#" class="bg-gradient-to-b from-[#008000] to-[#29621e] text-white text-[22px] font-bold rounded-[45px] text-center py-4 my-4 shadow-lg w-60">ADD TO CART</a>
+          <p class="flex flex-row items-center text-xl font-bold font-ssans"><img loading="lazy" src="img/fire.svg">Recently Sold: 1.298 <img loading="lazy" src="img/fire.svg"></p>
+        </div>
+        <div class="flex flex-col items-center bg-[#ffffe0] border border-[#7a7a7a] rounded p-5 max-w-[480px] mx-auto shadow">
+          <h2 class="font-ssans text-[34px] font-black text-center py-4">BUY 3 GET 1 FREE</h2>
+          <div class="flex flex-row items-center justify-between">
+            <img loading="lazy" src="img/pack-2.png" class="w-1/2">
+            <p class="w-1/2">
+              <span class="text-[22px] text-[#7a7a7a] font-bold line-through">119.90 €</span><br>
+              <span class="text-[38px] font-black">33.90 €</span> <span class="text-[19px] font-medium">/jar</span><br>
+              <span class="font-medium text-lg">+ FREE SHIPPING</span>
+            </p>
+          </div>
+          <p class="flex flex-row items-center text-base font-medium"><img loading="lazy" src="img/lock.svg">90 Day Money Back Guarantee</p>
+          <a href="#" class="bg-gradient-to-b from-[#008000] to-[#29621e] text-white text-[22px] font-bold rounded-[45px] text-center py-4 my-4 shadow-lg w-60">ADD TO CART</a>
+          <p class="flex flex-row items-center text-xl font-bold font-ssans"><img loading="lazy" src="img/fire.svg">Recently Sold: 1.298 <img loading="lazy" src="img/fire.svg"></p>
+        </div>
+        <div class="relative flex flex-col items-center bg-[#ffffe0] border-[3px] border-black rounded p-5 max-w-[480px] mx-auto shadow">
+          <div class="absolute -mt-10 mx-auto w-56 bg-black text-center text-white text-base font-semibold rounded-[30px] py-2">MOST POPULAR</div>
+          <h2 class="font-ssans text-[34px] font-black text-center py-4">BUY 6 GET 2 FREE</h2>
+          <div class="flex flex-row items-center justify-between">
+            <img loading="lazy" src="img/pack-3.png" class="w-1/2">
+            <p class="w-1/2">
+              <span class="text-[22px] text-[#7a7a7a] font-bold line-through">219.90 €</span><br>
+              <span class="text-[38px] font-black">29.90 €</span> <span class="text-[19px] font-medium">/jar</span><br>
+              <span class="font-medium text-lg">+ FREE SHIPPING</span>
+            </p>
+          </div>
+          <p class="flex flex-row items-center text-base font-medium"><img loading="lazy" src="img/lock.svg">90 Day Money Back Guarantee</p>
+          <a href="#" class="bg-gradient-to-b from-[#008000] to-[#29621e] text-white text-[22px] font-bold rounded-[45px] text-center py-4 my-4 shadow-lg w-60">ADD TO CART</a>
+          <p class="flex flex-row items-center text-xl font-bold font-ssans"><img loading="lazy" src="img/fire.svg">Recently Sold: 1.298 <img loading="lazy" src="img/fire.svg"></p>
+        </div>
+      </div>
+      <h1 class="text-[57px] text-[#285e93] text-center font-ssans font-bold leading-[30px] mt-16 mb-6">WHY?</h1>
+      <h2 class="text-[30px] text-center font-bold px-8 leading-[35px] max-w-2xl mx-auto">Thousand of REAL WORLD dog owners like you, consider CANINE BOOSTER their dog’s SECRET WEAPON</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-24 pt-24 px-7 max-w-4xl mx-auto">
+        <div class="relative flex flex-col items-center justify-around bg-[#f9f9f9] p-6 rounded-md shadow-md">
+          <div>
+            <img loading="lazy" src="img/q1.svg" class="absolute top-6 left-6 w-10 opacity-10">
+            <img loading="lazy" src="img/q2.svg" class="absolute bottom-6 right-6 w-10 opacity-10">
+            <img loading="lazy" src="img/test-img.png" class="absolute w-32 h-32 -top-16 left-0 right-0 mx-auto rounded-full shadow-lg">
+            <img loading="lazy" src="img/stars.svg" class="mx-auto pt-20 mb-5">
+            <p class="text-[#285e93] text-[21px] font-bold mb-5">I’m so happy I found this suppliment!</p>
+            <p class="text-[13px]">A dog in heat needs more than shade The more people paw prints forever on our hearts. I meet the more I like my dog. Dogs leave paw prints forever on our hearts. A dog in heat needs more than shade The more people paw prints forever on our hearts. I meet the more I like my dog.</p>
+          </div>
+          <div class="pt-5 self-start">
+            <p class="text-sm text-[#170c04]">
+              Carla Dona Tamlada<br>
+              <span class="text-xs text-[##170c04]">May, 2022</span>
+            </p>
+          </div>
+        </div>
+        <div class="relative flex flex-col items-center justify-around bg-[#f9f9f9] p-6 rounded-md shadow-md">
+          <div>
+            <img loading="lazy" src="img/q1.svg" class="absolute top-6 left-6 w-10 opacity-10">
+            <img loading="lazy" src="img/q2.svg" class="absolute bottom-6 right-6 w-10 opacity-10">
+            <img loading="lazy" src="img/test-img.png" class="absolute w-32 h-32 -top-16 left-0 right-0 mx-auto rounded-full shadow-lg">
+            <img loading="lazy" src="img/stars.svg" class="mx-auto pt-20 mb-5">
+            <p class="text-[#285e93] text-[21px] font-bold mb-5">I’m so happy I found this suppliment!</p>
+            <p class="text-[13px]">A dog in heat needs more than shade The more people paw prints forever on our hearts. I meet the more I like my dog. Dogs leave paw prints forever on our hearts. A dog in heat needs more than shade The more people paw prints forever on our hearts. I meet the more I like my dog.</p>
+          </div>
+          <div class="pt-5 self-start">
+            <p class="text-sm text-[#170c04]">
+              Carla Dona Tamlada<br>
+              <span class="text-xs text-[##170c04]">May, 2022</span>
+            </p>
+          </div>
+        </div>
+        <div class="relative flex flex-col items-center justify-around bg-[#f9f9f9] p-6 rounded-md shadow-md">
+          <div>
+            <img loading="lazy" src="img/q1.svg" class="absolute top-6 left-6 w-10 opacity-10">
+            <img loading="lazy" src="img/q2.svg" class="absolute bottom-6 right-6 w-10 opacity-10">
+            <img loading="lazy" src="img/test-img.png" class="absolute w-32 h-32 -top-16 left-0 right-0 mx-auto rounded-full shadow-lg">
+            <img loading="lazy" src="img/stars.svg" class="mx-auto pt-20 mb-5">
+            <p class="text-[#285e93] text-[21px] font-bold mb-5">I’m so happy I found this suppliment!</p>
+            <p class="text-[13px]">A dog in heat needs more than shade The more people paw prints forever on our hearts. I meet the more I like my dog. Dogs leave paw prints forever on our hearts. A dog in heat needs more than shade The more people paw prints forever on our hearts. I meet the more I like my dog.</p>
+          </div>
+          <div class="pt-5 self-start">
+            <p class="text-sm text-[#170c04]">
+              Carla Dona Tamlada<br>
+              <span class="text-xs text-[##170c04]">May, 2022</span>
+            </p>
+          </div>
+        </div>
+        <div class="relative flex flex-col items-center justify-around bg-[#f9f9f9] p-6 rounded-md shadow-md">
+          <div>
+            <img loading="lazy" src="img/q1.svg" class="absolute top-6 left-6 w-10 opacity-10">
+            <img loading="lazy" src="img/q2.svg" class="absolute bottom-6 right-6 w-10 opacity-10">
+            <img loading="lazy" src="img/test-img.png" class="absolute w-32 h-32 -top-16 left-0 right-0 mx-auto rounded-full shadow-lg">
+            <img loading="lazy" src="img/stars.svg" class="mx-auto pt-20 mb-5">
+            <p class="text-[#285e93] text-[21px] font-bold mb-5">I’m so happy I found this suppliment!</p>
+            <p class="text-[13px]">A dog in heat needs more than shade The more people paw prints forever on our hearts. I meet the more I like my dog. Dogs leave paw prints forever on our hearts. A dog in heat needs more than shade The more people paw prints forever on our hearts. I meet the more I like my dog.</p>
+          </div>
+          <div class="pt-5 self-start">
+            <p class="text-sm text-[#170c04]">
+              Carla Dona Tamlada<br>
+              <span class="text-xs text-[##170c04]">May, 2022</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="bg-gradient-to-b from-[#008000] to-[#29621e] text-white text-[22px] font-bold rounded-[45px] text-center py-4 mt-12 mb-4 shadow-lg w-60 mx-auto block">ORDER HERE</a>
+      <p class="flex flex-row items-center font-medium text-base justify-center mb-14"><img loading="lazy" src="img/lock.svg">90 Day Money Back Guarantee</p>
+      <div class="bg-[#dff0e8] bg-opacity-40 py-12">
+        <h1 class="text-[53px] text-[#008000] text-center font-ssans font-bold leading-[49px] mb-5">To Good<br>TO BE TRUE?</h1>
+        <h2 class="text-[28px] text-center font-bold px-8 leading-[32px] max-w-2xl mx-auto">All Orders Of Canine Booster Are Also Backed By Our 90-Day Money-Back Guarantee</h2>
+        <div class="h-[132px] bg-[#f2cd00] border-t-[3px] border-b-[3px] border-[#1d1d1b] my-16">
+          <div class="flex flex-row items-center h-[132px] max-w-[360px] mx-auto">
+            <img loading="lazy" src="img/badge.svg" class="mx-auto">
+            <img loading="lazy" src="img/petsy.png" class="mx-auto w-28 mr-8">
+          </div>
+        </div>
+        <div class="max-w-2xl mx-auto text-[15px] px-8">
+          That means you have 90 days to try out our products and if for any reason you are not completely satisfied, simply reach out to our friendly Customer Care Center for refund assistance.
+          <br><br>
+          Rest assured you can order with confidence in knowing that your purchase is backed by our iron-clad 90-Day Money Back Guarantee.
+        </div>
+      </div>
+      <h1 class="text-[37px] text-[#285E93] text-center font-ssans font-bold leading-[49px] my-14 px-8">Canie Booster only works if your dog ...</h1>
+      <div class="max-w-2xl mx-auto px-7">
+        <div class="flex flex-row items-start text-base font-medium mb-6">
+          <img loading="lazy" src="img/checkmark.svg">
+          <p class="text-base ml-4"><b>Takes it on consistent daily basis</b><br>Simply add it to your dog’s morning meal.</p>
+        </div>
+        <div class="flex flex-row items-start text-base font-medium mb-6">
+          <img loading="lazy" src="img/checkmark.svg">
+          <p class="text-base ml-4"><b>Takes the proper dose.</b><br>It depends of the weight of your dog so make sure to scoop the right amount.</p>
+        </div>
+        <div class="flex flex-row items-start text-base font-medium">
+          <img loading="lazy" src="img/checkmark.svg">
+          <p class="text-base ml-4"><b>Takes it for the proper amount of time.</b><br>The results are most often seen after 4 weeks of using Canine Booster (some report sooner results).</p>
+        </div>
+      </div>
+      <p class="text-center text-base mt-14 px-8">In other words, giving your dog a scoop here and there isn’t going to help.<br>Consistency is key.</p>
+      <a href="#" class="bg-gradient-to-b from-[#008000] to-[#29621e] text-white text-[22px] font-bold rounded-[45px] text-center py-4 mt-12 mb-4 shadow-lg w-60 mx-auto block">ORDER HERE</a>
+      <p class="flex flex-row items-center font-medium text-base justify-center"><img loading="lazy" src="img/lock.svg">90 Day Money Back Guarantee</p>
+      <img loading="lazy" src="img/canine-2.png" class="w-full max-w-2xl mx-auto my-14">
+      <div class="max-w-2xl mx-auto overflow-hidden md:px-8">
+        <h1 class="text-[41px] font-ssans font-bold leading-[42px] px-8 md:px-0">LOVED BY PETS. <br class="hidden md:block">RECOMMENDED BY VETS.</h1>
+        <h2 class="font-ssans text-[25px] font-bold mt-8 mb-6 leading-8 px-8 md:px-0">I have prepared this <br class="hidden md:block"><span class="text-[#ff0000] whitespace-nowrap">one-time offer</span> <br class="hidden md:block">for your furry friend ...</h2>
+        <div class="flex flex-row">
+          <div class="pt-12">
+            <div class="h-0 w-[205px] rotate-180 border-b-[47px] border-l-[25px] border-l-transparent border-b-[#F2CD00] flex items-center justify-center">
+              <p class="text-base font-bold rotate-180 mt-[45px] italic">Dr. Vet. Med. Zupanc </p>
+            </div>
+            <img loading="lazy" src="img/signature.png" class="ml-9 w-32">
+          </div>
+          <img loading="lazy" src="img/arin-rupus-2.png" class="-ml-32 md:-ml-0 max-w-sm">
+        </div>
+      </div>
+      <div class="flex flex-col-reverse lg:flex-row items-center justify-between gap-y-5 gap-x-1 max-w-5xl mx-auto pb-14">
+        <div class="flex flex-col items-center bg-[#ffffe0] border border-[#7a7a7a] rounded p-5 max-w-[480px] mx-auto shadow">
+          <h2 class="font-ssans text-[34px] font-black text-center py-4">BUY 1</h2>
+          <div class="flex flex-row items-center justify-between">
+            <img loading="lazy" src="img/pack-1.png" class="w-1/2">
+            <p class="w-1/2">
+              <span class="text-[22px] text-[#7a7a7a] font-bold line-through">49.90 €</span><br>
+              <span class="text-[38px] font-black">39.90 €</span> <span class="text-[19px] font-medium">/jar</span><br>
+              <span class="font-medium text-lg">+ FREE SHIPPING</span>
+            </p>
+          </div>
+          <p class="flex flex-row items-center text-base font-medium"><img loading="lazy" src="img/lock.svg">90 Day Money Back Guarantee</p>
+          <a href="#" class="bg-gradient-to-b from-[#008000] to-[#29621e] text-white text-[22px] font-bold rounded-[45px] text-center py-4 my-4 shadow-lg w-60">ADD TO CART</a>
+          <p class="flex flex-row items-center text-xl font-bold font-ssans"><img loading="lazy" src="img/fire.svg">Recently Sold: 1.298 <img loading="lazy" src="img/fire.svg"></p>
+        </div>
+        <div class="flex flex-col items-center bg-[#ffffe0] border border-[#7a7a7a] rounded p-5 max-w-[480px] mx-auto shadow">
+          <h2 class="font-ssans text-[34px] font-black text-center py-4">BUY 3 GET 1 FREE</h2>
+          <div class="flex flex-row items-center justify-between">
+            <img loading="lazy" src="img/pack-2.png" class="w-1/2">
+            <p class="w-1/2">
+              <span class="text-[22px] text-[#7a7a7a] font-bold line-through">119.90 €</span><br>
+              <span class="text-[38px] font-black">33.90 €</span> <span class="text-[19px] font-medium">/jar</span><br>
+              <span class="font-medium text-lg">+ FREE SHIPPING</span>
+            </p>
+          </div>
+          <p class="flex flex-row items-center text-base font-medium"><img loading="lazy" src="img/lock.svg">90 Day Money Back Guarantee</p>
+          <a href="#" class="bg-gradient-to-b from-[#008000] to-[#29621e] text-white text-[22px] font-bold rounded-[45px] text-center py-4 my-4 shadow-lg w-60">ADD TO CART</a>
+          <p class="flex flex-row items-center text-xl font-bold font-ssans"><img loading="lazy" src="img/fire.svg">Recently Sold: 1.298 <img loading="lazy" src="img/fire.svg"></p>
+        </div>
+        <div class="relative flex flex-col items-center bg-[#ffffe0] border-[3px] border-black rounded p-5 max-w-[480px] mx-auto shadow">
+          <div class="absolute -mt-10 mx-auto w-56 bg-black text-center text-white text-base font-semibold rounded-[30px] py-2">MOST POPULAR</div>
+          <h2 class="font-ssans text-[34px] font-black text-center py-4">BUY 6 GET 2 FREE</h2>
+          <div class="flex flex-row items-center justify-between">
+            <img loading="lazy" src="img/pack-3.png" class="w-1/2">
+            <p class="w-1/2">
+              <span class="text-[22px] text-[#7a7a7a] font-bold line-through">219.90 €</span><br>
+              <span class="text-[38px] font-black">29.90 €</span> <span class="text-[19px] font-medium">/jar</span><br>
+              <span class="font-medium text-lg">+ FREE SHIPPING</span>
+            </p>
+          </div>
+          <p class="flex flex-row items-center text-base font-medium"><img loading="lazy" src="img/lock.svg">90 Day Money Back Guarantee</p>
+          <a href="#" class="bg-gradient-to-b from-[#008000] to-[#29621e] text-white text-[22px] font-bold rounded-[45px] text-center py-4 my-4 shadow-lg w-60">ADD TO CART</a>
+          <p class="flex flex-row items-center text-xl font-bold font-ssans"><img loading="lazy" src="img/fire.svg">Recently Sold: 1.298 <img loading="lazy" src="img/fire.svg"></p>
+        </div>
+      </div>
+
+
+      
+    </section>
+
+    <script>
+      const zeroPad = (num, places) => String(num).padStart(places, '0');
+
+      var countDownDate = new Date("May 15, 2023 15:37:25").getTime();
+
+      var x = setInterval(function() {
+
+        var now = new Date().getTime();
+
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerHTML = zeroPad(days, 2);
+        document.getElementById("hours").innerHTML = zeroPad(hours, 2);
+        document.getElementById("minutes").innerHTML = zeroPad(minutes, 2);
+        document.getElementById("seconds").innerHTML = zeroPad(seconds, 2);
+
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("cdown").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+
+
+    </script>
+
+    <footer class="bg-blue-900 text-white py-6 lg:py-8 px-6 lg:px-8 xl:px-4 text-sm">
+      <div class="container mx-auto text-center">
+        <b>© 2023 PetLab Co.</b>
+        <br><br>
+        The information contained within this site is not intended as a substitute for professional medical or veterinary advice. If your pet has, or you suspect your pet has any medical condition you are urged to consult your veterinarian. These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Medical conditions can only be diagnosed by a licensed veterinarian.
+        <br><br>
+        The use of the logos are copyrighted by each respective entity and use of any particular logo may represent a publication, advertisement, or mention of PetLab on a local affiliate or regional carrier.
+        <br><br>
+        *Number 1 selling product in Amazon Pet Health Category in 2022
+        <br><br>
+        *Results May Vary. Not intended for human consumption. Please consult your veterinarian regarding any change in treatment or supplementation.
+        <div class="text-center mt-5">
+          <a href="#" target="_blank" class="underline">About Us</a>
+          <span> | </span>
+          <a href="#" target="_blank" class="underline">Products</a>
+          <span> | </span>
+          <a href="#" target="_blank" class="underline">Terms of use</a>
+          <span> | </span>
+          <a href="#" target="_blank" class="underline">Privacy Statemen</a>
+          <span> | </span>
+          <a href="#" target="_blank" class="underline">Contact Us</a>
+        </div>
+      </div>
+    </footer>                  
+  </body>
+</html>
